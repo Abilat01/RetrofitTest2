@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+    <string name="name">Представтесь</string>
+    <string name="retrofit">Получить данные из сети #1</string>
+    <string name="retrofit1">Получить данные из сети №2</string>
+    <string name="exit">Выход</string>
+</resources>
