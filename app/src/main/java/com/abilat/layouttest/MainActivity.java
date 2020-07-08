@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent1);
 
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -54,15 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
         }
-
-
         return super.onOptionsItemSelected(item);
     }
-
-
-
-    /*public void OnClickNetOne(MenuItem item) {
-        Intent intent = new Intent(this, Play.class);
-        startActivity(intent); хуйня, через switch компактнее
-    }*/
 }
